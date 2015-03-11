@@ -1,0 +1,14 @@
+import java.util.AbstractMap;
+import java.util.HashMap;
+
+public class Sentiment_Score_Dict{
+    protected HashMap<String, Integer> positive_words;
+    protected HashMap<String, Integer> negative_words;
+    protected HashMap<String, Integer> neutral_words;
+    
+    public Sentiment_Score_Dict(){
+	positive_words = new HashMap<String, Integer>(){{
+	    put("awesome", 5);
+	}};
+    }
+}

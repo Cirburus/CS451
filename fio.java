@@ -53,7 +53,7 @@ public class fio {
      *Reads the next whole line of the file
      ****************************************/
     public String readLine(){
-    	System.out.println("Reading...);
+    	System.out.println("Reading...");
 	String inputLine = null ;
 	if (readFile.equals(null)) {
 	    System.err.println("There is no file opened. Please check the file name or open the file");
