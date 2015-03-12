@@ -111,11 +111,15 @@ public class fio {
     public void close() {
 	try {
 	    inLine.close();
+	}catch (NullPointerException e){
+	    System.out.println("There is no read file open.");
 	}catch (IOException e) {
 	    System.err.println("There was a problem closing " + readFile + "!\n");
 	}
 	try{
 	    outLine.close();
+	}catch (NullPointerException e){
+	    System.out.println("There is no write file open.");
 	}catch (IOException e){
 	    System.err.println("There was a problem closing "+ writeFile + "!\n");
 	}

@@ -10,18 +10,24 @@ public class Sentiment_Score_Dict{
 	positive_words = new HashMap<String, Integer>(){{
 		put("awesome", 5);
 	    }};
+	negative_words = new HashMap<String, Integer>(){{
+		put("suck", -5);
+	    }};
+	neutral_words = new HashMap<String, Integer>(){{
+		put("ok", 0);
+	    }};
     }
     public int GetScore(String word){
 	if (positive_words.containsValue(word)){
 	    return positive_words.get(word);
 	}
 	if (negative_words.containsValue(word)){
-	    return negtaive_words.get(word);
+	    return negative_words.get(word);
 	}
 	if (neutral_words.containsValue(word)){
 	    return neutral_words.get(word);
 	}
-	
+	return -999;
     }
     
 }

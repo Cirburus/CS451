@@ -1,3 +1,2 @@
 This is an example of a tweet. I have sentences, commas, periods, and hashtags #. I am awesome!
 This is another tweet. This contents suck!
-
