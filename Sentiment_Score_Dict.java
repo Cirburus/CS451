@@ -18,7 +18,7 @@ public class Sentiment_Score_Dict{
 	    }};
     }
     public int GetScore(String word){
-	if (positive_words.containsValue(word)){
+	if (positive_words.containsKey(word)){
 	    return positive_words.get(word);
 	}
 	if (negative_words.containsValue(word)){
