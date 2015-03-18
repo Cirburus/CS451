@@ -17,7 +17,19 @@ public class Sentiment_Score_Dict{
 		put("ok", 0);
 	    }};
     }
-    public int GetScore(String word){
+    public boolean hasWord (String word){
+	if (positive_words.containsKey(word)){
+            return true;
+        }
+        if (negative_words.containsValue(word)){
+            return true;
+        }
+        if (neutral_words.containsValue(word)){
+            return true;
+        }
+        return false;
+    }
+    public int getScore(String word){
 	if (positive_words.containsKey(word)){
 	    return positive_words.get(word);
 	}

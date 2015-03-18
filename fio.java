@@ -5,6 +5,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.FileNotFoundException;
+import java.util.*;
 
 /****************************************
  * Use this template to do FI and O.
@@ -62,7 +63,7 @@ public class fio {
 	try{
 	    inputLine = inLine.readLine();
 	    if (inputLine == null){ moreData = false;}
-	    if (!moreData) { return "No More Data";}
+	    if (!moreData) { return null;}
 	}catch (IOException error){
 	    System.err.println ("An error occurred reading from file " + readFile + "!\n");
 	    System.exit(1);
