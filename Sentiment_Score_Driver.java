@@ -15,12 +15,12 @@ public class Sentiment_Score_Driver{
 	    while (readTweet.hasMoreTokens()){
 		String token = readTweet.nextToken().trim();
 		if (helper.hasWord(token)){
-		    tweetScore +=  helper.getScore(token.tolo);
+		    tweetScore +=  helper.getScore(token.toLowerCase());
 		}
 	    }
 	    System.out.println("Tweet number " +(++tweetNum)+" has a score of "+tweetScore);
 	    consider = tweets.readLine();
-	    if (readTweet.hasMoreTokens()){readTweet = new StringTokenizer(consider," ");}
+	    if (consider != null){readTweet = new StringTokenizer(consider," ");}
 	}
 	tweets.close();
     }

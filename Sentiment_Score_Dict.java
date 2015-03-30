@@ -9,15 +9,18 @@ public class Sentiment_Score_Dict{
     public Sentiment_Score_Dict(){
 	positive_words = new HashMap<String, Integer>(){{
 		put("awesome", 5);
+		put("awesome!",5);
 	    }};
 	negative_words = new HashMap<String, Integer>(){{
 		put("suck", -5);
+		put("suck!", -5);
 	    }};
 	neutral_words = new HashMap<String, Integer>(){{
 		put("ok", 0);
 	    }};
     }
     public boolean hasWord (String word){
+	System.out.println("Checking for: "+word);
 	if (positive_words.containsKey(word)){
             return true;
         }

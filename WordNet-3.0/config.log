@@ -14,7 +14,7 @@ hostname = Taylors-MacBook-Pro.local
 uname -m = x86_64
 uname -r = 14.1.0
 uname -s = Darwin
-uname -v = Darwin Kernel Version 14.1.0: Mon Dec 22 23:10:38 PST 2014; root:xnu-2782.10.72~2/RELEASE_X86_64
+uname -v = Darwin Kernel Version 14.1.0: Thu Feb 26 19:26:47 PST 2015; root:xnu-2782.10.73~1/RELEASE_X86_64
 
 /usr/bin/uname -p = i386
 /bin/uname -X     = unknown
@@ -23,15 +23,15 @@ uname -v = Darwin Kernel Version 14.1.0: Mon Dec 22 23:10:38 PST 2014; root:xnu-
 /usr/bin/arch -k       = unknown
 /usr/convex/getsysinfo = unknown
 hostinfo               = Mach kernel version:
-	 Darwin Kernel Version 14.1.0: Mon Dec 22 23:10:38 PST 2014; root:xnu-2782.10.72~2/RELEASE_X86_64
+	 Darwin Kernel Version 14.1.0: Thu Feb 26 19:26:47 PST 2015; root:xnu-2782.10.73~1/RELEASE_X86_64
 Kernel configured for up to 4 processors.
 2 processors are physically available.
 4 processors are logically available.
 Processor type: i486 (Intel 80486)
 Processors active: 0 1 2 3
 Primary memory available: 4.00 gigabytes
-Default processor set: 168 tasks, 617 threads, 4 processors
-Load average: 1.70, Mach factor: 2.28
+Default processor set: 180 tasks, 701 threads, 4 processors
+Load average: 1.54, Mach factor: 2.44
 /bin/machine           = unknown
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
@@ -54,13 +54,13 @@ configure:1397: result: gcc
 configure:1641: checking for C compiler version
 configure:1644: gcc --version </dev/null >&5
 Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
-Apple LLVM version 6.0 (clang-600.0.56) (based on LLVM 3.5svn)
+Apple LLVM version 6.0 (clang-600.0.57) (based on LLVM 3.5svn)
 Target: x86_64-apple-darwin14.1.0
 Thread model: posix
 configure:1647: $? = 0
 configure:1649: gcc -v </dev/null >&5
 Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
-Apple LLVM version 6.0 (clang-600.0.56) (based on LLVM 3.5svn)
+Apple LLVM version 6.0 (clang-600.0.57) (based on LLVM 3.5svn)
 Target: x86_64-apple-darwin14.1.0
 Thread model: posix
 configure:1652: $? = 0
@@ -603,14 +603,14 @@ am_cv_langinfo_codeset=yes
 ## Output variables. ##
 ## ----------------- ##
 
-ACLOCAL='${SHELL} /Users/Sully/documents/cs451/wordNet-3.0/missing --run aclocal-1.9'
+ACLOCAL='${SHELL} /Users/Sully/documents/cs451/WordNet-3.0/missing --run aclocal-1.9'
 AMDEPBACKSLASH='\'
 AMDEP_FALSE='#'
 AMDEP_TRUE=''
-AMTAR='${SHELL} /Users/Sully/documents/cs451/wordNet-3.0/missing --run tar'
-AUTOCONF='${SHELL} /Users/Sully/documents/cs451/wordNet-3.0/missing --run autoconf'
-AUTOHEADER='${SHELL} /Users/Sully/documents/cs451/wordNet-3.0/missing --run autoheader'
-AUTOMAKE='${SHELL} /Users/Sully/documents/cs451/wordNet-3.0/missing --run automake-1.9'
+AMTAR='${SHELL} /Users/Sully/documents/cs451/WordNet-3.0/missing --run tar'
+AUTOCONF='${SHELL} /Users/Sully/documents/cs451/WordNet-3.0/missing --run autoconf'
+AUTOHEADER='${SHELL} /Users/Sully/documents/cs451/WordNet-3.0/missing --run autoheader'
+AUTOMAKE='${SHELL} /Users/Sully/documents/cs451/WordNet-3.0/missing --run automake-1.9'
 AWK='awk'
 CC='gcc'
 CCDEPMODE='depmode=gcc3'
@@ -632,7 +632,7 @@ LDFLAGS=''
 LIBOBJS=''
 LIBS=''
 LTLIBOBJS=''
-MAKEINFO='${SHELL} /Users/Sully/documents/cs451/wordNet-3.0/missing --run makeinfo'
+MAKEINFO='${SHELL} /Users/Sully/documents/cs451/WordNet-3.0/missing --run makeinfo'
 OBJEXT='o'
 PACKAGE='WordNet'
 PACKAGE_BUGREPORT='wordnet@princeton.edu'
@@ -670,7 +670,7 @@ exec_prefix='${prefix}'
 host_alias=''
 includedir='${prefix}/include'
 infodir='${prefix}/info'
-install_sh='/Users/Sully/documents/cs451/wordNet-3.0/install-sh'
+install_sh='/Users/Sully/documents/cs451/WordNet-3.0/install-sh'
 libdir='${exec_prefix}/lib'
 libexecdir='${exec_prefix}/libexec'
 localstatedir='${prefix}/var'
