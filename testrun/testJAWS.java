@@ -1,4 +1,4 @@
-import edu.smu.tspell.wordnet.*;
+import edu.smu.tspell.wordnet;
 
 /**
  * Displays word forms and definitions for synsets containing the word form
